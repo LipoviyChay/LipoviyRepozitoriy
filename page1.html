@@ -8,7 +8,12 @@
   </head>
 
 <body>
- <a class="link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="page2.html" target="_blank">Ссылка на страницу page2</a>
+<nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="page2.html">Ссылка на страницу page2</a>
+  </div>
+</nav>
+<!-- <a class="link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="page2.html" target="_blank">Ссылка на страницу page2</a>-->
  <form action="">
      <div>
      <label for='field1'>Введите логин</label>
@@ -20,8 +25,12 @@
      <label for="field3">Подтверждаю использование почты для рассылки</label>
      <input id='field3' type="checkbox">
     </div>
-
+    <div>
+      <br> <label for="field4">Введите 3 раза "Я не робот", чтобы подтвердить, что вы человек :)</label> <br>
+      <textarea id="field4"></textarea>
+    </div>
      <input type="button" class="btn btn-primary" value="Отправить">
  </form>
 </body>
 </html>
+
